@@ -1,0 +1,63 @@
+.primary-color {
+    -fx-background-color: #00738f;
+}
+.secondary-color{
+    -fx-background-color:#FFFFFF;
+}
+.custom-button {
+    -fx-background-color:#084454;
+    -fx-background-radius:100;
+}
+.custom-input{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius:100;
+}
+.custom-background{
+    -fx-background-color:#000000
+}
+.transparent{
+    -fx-background:rgba(0,0,0,0);
+}
+.custom-button:hover {
+   -fx-background-color: rgba(192, 192, 192, 0.1);
+}
+
+.titled-pane {
+    -fx-background-color: #0B5C2A; /* Màu nền giống như button */
+    -fx-padding: 10; /* Khoảng cách bên trong */
+    -fx-font-size: 20; /* Kích thước chữ */
+    -fx-text-fill: white; /* Màu chữ */
+    -fx-background-radius: 5; /* Bo tròn góc */
+}
+
+.titled-pane > .title {
+    -fx-background-color: transparent; /* Không có màu nền cho tiêu đề */
+    -fx-padding: 10; /* Khoảng cách bên trong tiêu đề */
+}
+
+.titled-pane:expanded {
+    -fx-background-color: #007f4f; /* Màu nền khi mở rộng */
+}
+.grid-pane {
+    -fx-background-color: black; /* Nền đen cho GridPane */
+    -fx-padding: 20; /* Khoảng cách giữa GridPane và nội dung */
+}
+
+.cell {
+    -fx-background-color: #1e1e1e; /* Màu nền ô tối */
+    -fx-padding: 20; /* Khoảng cách bên trong mỗi ô */
+    -fx-alignment: center; /* Căn giữa nội dung trong ô */
+    -fx-font-size: 40px; /* Kích thước chữ lớn hơn */
+    -fx-text-fill: white; /* Màu chữ trắng */
+    -fx-border-color: white; /* Màu viền trắng cho ô */
+    -fx-border-width: 2; /* Độ dày viền */
+}
+
+.highlight {
+    -fx-background-color: gray; /* Màu nền xám cho ô đang được chọn */
+    -fx-text-fill: cyan; /* Màu chữ cyan cho ô đang được chọn */
+    -fx-border-color: cyan; /* Màu viền cyan cho ô đang được chọn */
+}
+.custom-borderpane{
+    -fx-background-color:#090909;
+}

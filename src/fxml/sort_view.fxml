@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="835.0" prefWidth="1315.0" styleClass="custom-borderpane" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java.animation.Controller">
+   <left>
+      <VBox prefHeight="802.0" prefWidth="278.0" styleClass="primary-color" stylesheets="@../values/style.css" BorderPane.alignment="CENTER">
+         <children>
+            <VBox prefHeight="835.0" prefWidth="354.0">
+               <children>
+                  <HBox prefHeight="44.0" prefWidth="218.0" styleClass="primary-color" stylesheets="@../values/style.css">
+                     <children>
+                        <Label textFill="#ececec">
+                           <font>
+                              <Font size="20.0" />
+                           </font>
+                        </Label>
+                        <TextField fx:id="inputField" alignment="CENTER" prefHeight="215.0" prefWidth="955.0" promptText="Nhập vào mảng" styleClass="custom-input" stylesheets="@../values/style.css" />
+                     </children>
+                     <VBox.margin>
+                        <Insets left="30.0" right="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <Button fx:id="inputButton" mnemonicParsing="false" onAction="#handleInputButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Nhập" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="clrBtn" mnemonicParsing="false" onAction="#handleClearButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Clear" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="randomButton" mnemonicParsing="false" onAction="#handleRandomButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Random" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <HBox prefHeight="46.0" prefWidth="278.0">
+                     <children>
+                        <ImageView fitHeight="47.0" fitWidth="39.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/OIP-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label text="Search" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Button fx:id="linearButton" mnemonicParsing="false" onAction="#handleLinearButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Linear" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="binButton" mnemonicParsing="false" onAction="#handleBinButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Binary" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <HBox prefHeight="51.0" prefWidth="278.0">
+                     <children>
+                        <ImageView fitHeight="55.0" fitWidth="70.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/5282960-middle-removebg-preview.png" />
+                           </image>
+                        </ImageView>
+                        <Label prefHeight="54.0" prefWidth="214.0" text="Sorting" textFill="WHITE">
+                           <font>
+                              <Font size="24.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <Button fx:id="bubbleBtn" mnemonicParsing="false" onAction="#handleBubbleButton" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Bubble" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="interBtn" mnemonicParsing="false" onAction="#handleInterchangeSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Interchange" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="insertBtn" mnemonicParsing="false" onAction="#handleInsertionSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Insertion" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="selectBtn" mnemonicParsing="false" onAction="#handleSelectionSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Selection" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="binInBtn" mnemonicParsing="false" onAction="#handleBinaryInsertionSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Binary Insertion" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="shakerBtn" mnemonicParsing="false" onAction="#handleShakerSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Shaker" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="shellBtn" mnemonicParsing="false" onAction="#handleShellSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Shell" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="quickBtn" mnemonicParsing="false" onAction="#handleQuickSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Quick" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="merBtn" mnemonicParsing="false" onAction="#handleMergeSort" prefHeight="40.0" prefWidth="260.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Merge" textFill="WHITE">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+         </children>
+      </VBox>
+   </left>
+   <center>
+      <Pane prefHeight="842.0" prefWidth="1054.0" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="60.0" layoutY="746.0" prefHeight="36.0" prefWidth="939.0">
+               <children>
+                  <Button fx:id="runBtn" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleRunButton" prefHeight="30.0" prefWidth="259.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Run" textFill="WHITE" />
+                  <TextField fx:id="inputXField" prefHeight="26.0" prefWidth="214.0" promptText="Nhập X để tìm kiếm" stylesheets="@../values/style.css">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <styleClass>
+                        <String fx:value="transparent" />
+                        <String fx:value="custom-input" />
+                     </styleClass>
+                  </TextField>
+                  <Button fx:id="nhapXBTn" mnemonicParsing="false" onAction="#handleNhapXButton" prefHeight="30.0" prefWidth="73.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Nhập" textFill="WHITE" />
+                  <Button fx:id="infoBtn" mnemonicParsing="false" onAction="#handleInfoButton" prefHeight="30.0" prefWidth="120.0" styleClass="custom-button" stylesheets="@../values/style.css" text="Infor" textFill="WHITE" />
+               </children>
+            </HBox>
+            <Pane fx:id="mainPane" layoutX="17.0" layoutY="17.0" prefHeight="711.0" prefWidth="1000.0" />
+            <TextField fx:id="Field1" layoutX="332.0" layoutY="117.0" prefHeight="26.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field2" layoutX="392.0" layoutY="117.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field3" layoutX="452.0" layoutY="117.0" prefHeight="25.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field4" layoutX="512.0" layoutY="117.0" prefHeight="6.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field5" layoutX="572.0" layoutY="117.0" prefHeight="0.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field6" layoutX="632.0" layoutY="117.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field7" layoutX="692.0" layoutY="117.0" prefHeight="4.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+            <TextField fx:id="Field8" layoutX="752.0" layoutY="117.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

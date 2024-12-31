@@ -1,0 +1,12 @@
+.text-field {
+    -fx-background-color: #E93260; /* Màu nền giống Rectangle */
+
+    -fx-border-color: black; /* Viền đen giống Rectangle */
+    -fx-text-fill: white; /* Màu chữ trắng giống Label */
+    -fx-font-family: "Philosopher"; /* Font giống như Label */
+    -fx-font-size: 26px; /* Cỡ chữ giống Label */
+    -fx-alignment: center; /* Căn chữ giữa */
+    -fx-pref-width: 50px; /* Độ rộng tùy chỉnh, bạn có thể thay đổi */
+    -fx-pref-height: 50px; /* Độ cao tùy chỉnh, bạn có thể thay đổi */
+    -fx-padding: 0; /* Không thêm padding */
+}

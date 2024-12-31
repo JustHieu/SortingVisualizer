@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="711.0" prefWidth="1000.0" styleClass="custom-background" stylesheets="@../values/style.css" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.java.animation.controller.Linear">
+    <children>
+        <TextField fx:id="Field1" layoutX="315.0" layoutY="100.0" prefHeight="26.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field2" layoutX="375.0" layoutY="100.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field3" layoutX="435.0" layoutY="100.0" prefHeight="25.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field4" layoutX="495.0" layoutY="100.0" prefHeight="6.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field5" layoutX="555.0" layoutY="100.0" prefHeight="0.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field6" layoutX="615.0" layoutY="100.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field7" layoutX="675.0" layoutY="100.0" prefHeight="4.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+        <TextField fx:id="Field8" layoutX="735.0" layoutY="100.0" prefHeight="15.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+      <TextField fx:id="FieldX" layoutX="825.0" layoutY="50.0" prefHeight="26.0" prefWidth="28.0" stylesheets="@../values/Field.css" />
+      <Text fill="WHITE" layoutX="844.0" layoutY="44.0" strokeType="OUTSIDE" strokeWidth="0.0" text="X" wrappingWidth="12.400024414062273">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Text>
+    </children>
+</Pane>

@@ -1,4 +1,3 @@
-# SortingVisualizer
-This is my personal project called 'SortingVisualizer'.
-This program illustrates the functioning of algorithms such as linear search, binary search, etc., helping people understand how they work.
-Using JavaFX
+[200~This is my personal project called 'SortingVisualizer.' The program demonstrates the functionality of algorithms such as linear search, binary search, and more. It provides an interactive and visual approach to understanding how these algorithms work step-by-step, making it easier for users to grasp complex concepts.
+
+Implemented using JavaFX, 'SortingVisualizer' features a user-friendly interface that highlights key operations like comparisons, swaps, and decision points in real-time. This project is designed for students, educators, and anyone interested in learning algorithmic processes through visualization.
